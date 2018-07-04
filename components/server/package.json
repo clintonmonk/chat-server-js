@@ -1,10 +1,11 @@
 {
   "name": "chat-server",
   "version": "0.0.1",
-  "description": "",
+  "description": "Chat Server",
   "main": "src/index.js",
   "author": "Clinton Monk",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "ws": "^5.2.1"
   },

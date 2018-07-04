@@ -7,4 +7,12 @@ services:
       context: ./components/server
       dockerfile: Dockerfile
     ports:
+      - 3001:3000
+
+  chat-client:
+    container_name: chat-client
+    build:
+      context: ./components/client
+      dockerfile: Dockerfile
+    ports:
       - 3000:3000
